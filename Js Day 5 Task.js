@@ -18,9 +18,6 @@ class Uber {
     }
 }
 
-const cab = new Uber(50, 1500, 5);
-
-let distance = 40;
 const cab1 = new Uber(50, 1500, 5);
 cab1.setDistance(43);
 console.log(cab1.getRideDetails());
